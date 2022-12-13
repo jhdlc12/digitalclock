@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.hours,
+.minutes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#hour1,
+#hour2,
+#minute1,
+#minute2 {
+  width: 200px;
+  background-color: beige;
+  height: 200px;
+  border-radius: 15px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Black Ops One";
+}
+.clock-colon {
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Black Ops One";
+  font-size: 50px;
+  width: 10px;
+}
